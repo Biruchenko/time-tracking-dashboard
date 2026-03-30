@@ -1,0 +1,52 @@
+:root {
+  /* === Colors === */
+  --white-color: #fff;
+  --black-color: #000;
+  --navy-950-color: #0e1323;
+  --navy-900-color: #1c204b;
+  --navy--800-color: #33397a;
+  --navy-200-color: #bbc0ff;
+  --orange-300-color: #ff8b64;
+  --purple-700-color: #7335d2;
+  --purple-600-color: #5747ea;
+  --purple-500-color: #7078c9;
+  --blue-300-color: #55c2e6;
+  --pink-400-color: #ff5e7d;
+  --green-400-color: #4bcf82;
+  --yellow-300-color: #f1c75b;
+  --grey-200-color: #d8d8d8;
+  /* === Typography === */
+  /*font-family*/
+  --font-main: "Rubik", sans-serif;
+  /*font-weight*/
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-500: 500;
+  /*font-size*/
+  --fz-56: 3.5rem;
+  --fz-40: 2.5rem;
+  --fz-32: 2rem;
+  --fz-24: 1.5rem;
+  --fz-18: 1.125rem;
+  --fz-15: 0.9375rem;
+  /*line-height*/
+  --lh-66: 1.17857143; /* 66/56 */
+  --lh-47: 1.175; /* 47/40 */
+  --lh-38: 1.1875; /* 38/32 */
+  --lh-28: 1.16666667; /* 28/24 */
+  --lh-21: 1.16666667; /* 21/18 */
+  --lh-18: 1.2; /* 18/15 */
+  --ls: 1.2px;
+  /*Text presets*/
+  --text-preset-1: var(--fw-300) var(--fz-56) / var(--lh-66) var(--font-main);
+  --text-preset-2: var(--fw-300) var(--fz-40) / var(--lh-47) var(--font-main);
+  --text-preset-3: var(--fw-300) var(--fz-32) / var(--lh-38) var(--font-main);
+  --text-preset-4: var(--fw-300) var(--fz-24) / var(--lh-28) var(--font-main);
+  --text-preset-5-m: var(--fw-500) var(--fz-18) / var(--lh-21) var(--font-main);
+  --text-preset-5-r: var(--fw-400) var(--fz-18) / var(--lh-21) var(--font-main);
+  --text-preset-6: var(--fw-400) var(--fz-15) / var(--lh-18) var(--font-main);
+  /* === Transition === */
+  --transition: all 0.4s ease-in-out;
+  /* === Other === */
+  --border-radius: 0.9375rem;
+}

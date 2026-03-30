@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+		<title>Frontend Mentor | Time tracking dashboard</title>
+		<link rel="stylesheet" href="styles/styles.css">
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1 class="sr-only">Time tracking dashboard</h1>
+			</header>
+			<main>
+				<div class="dashboard">
+					<div class="dashboard__container">
+						<div class="dashboard__inner">
+							<div class="dashboard__body">
+								<div class="dashboard__content">
+									<figure class="dashboard__avatar">
+										<img src="images/image-jeremy.png" alt="Image of Jeremy Robson">
+									</figure>
+									<div class="dashboard__description">
+										<div class="dashboard__label">Report for</div>
+										<h2 class="dashboard__name">Jeremy Robson</h2>
+									</div>
+								</div>
+								<div class="dashboard__controls">
+									<button id="daily-btn" class="dashboard__control button">Daily</button>
+									<button id="weekly-btn" class="dashboard__control button">Weekly</button>
+									<button id="monthly-btn" class="dashboard__control button">Monthly</button>
+								</div>
+							</div>
+							<div class="dashboard__cards">
+								<div class="dashboard__card card card--work" id="work-card">
+									<div class="card__heading">
+										<h3 class="card__title"></h3>
+										<div class="card__dots">
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+										</div>
+									</div>
+									<div class="card__time-frame time-frame">
+										<div class="time-frame__current"><span></span></div>
+										<div class="time-frame__previous"><span></span></div>
+									</div>
+								</div>
+								<div class="dashboard__card card card--play" id="play-card">
+									<div class="card__heading">
+										<h3 class="card__title"></h3>
+										<div class="card__dots">
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+										</div>
+									</div>
+									<div class="card__time-frame time-frame">
+										<div class="time-frame__current"><span></span></div>
+										<div class="time-frame__previous"></div>
+									</div>
+								</div>
+								<div class="dashboard__card card card--study" id="study-card">
+									<div class="card__heading">
+										<h3 class="card__title"></h3>
+										<div class="card__dots">
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+										</div>
+									</div>
+									<div class="card__time-frame time-frame">
+										<div class="time-frame__current"><span></span></div>
+										<div class="time-frame__previous">- <span></span></div>
+									</div>
+								</div>
+								<div class="dashboard__card card card--exercise" id="exercise-card">
+									<div class="card__heading">
+										<h3 class="card__title"></h3>
+										<div class="card__dots">
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+										</div>
+									</div>
+									<div class="card__time-frame time-frame">
+										<div class="time-frame__current"><span></span></div>
+										<div class="time-frame__previous">- <span></span></div>
+									</div>
+								</div>
+								<div class="dashboard__card card card--social" id="social-card">
+									<div class="card__heading">
+										<h3 class="card__title"></h3>
+										<div class="card__dots">
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+										</div>
+									</div>
+									<div class="card__time-frame time-frame">
+										<div class="time-frame__current"><span></span></div>
+										<div class="time-frame__previous"><span></span></div>
+									</div>
+								</div>
+								<div class="dashboard__card card card--self-care" id="self-care-card">
+									<div class="card__heading">
+										<h3 class="card__title"></h3>
+										<div class="card__dots">
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+											<span class="card__dot"></span>
+										</div>
+									</div>
+									<div class="card__time-frame time-frame">
+										<div class="time-frame__current"><span></span></div>
+										<div class="time-frame__previous"><span></span></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<div class="attribution">
+					Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+				</div>
+			</footer>
+		</div>
+
+	</body>
+</html>
