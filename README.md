@@ -14,6 +14,8 @@ This project uses a local `data.json` file as the source of activity data and is
 
 ### Links
 
+- https://biruchenko.github.io/time-tracking-dashboard/
+
 ### Built with
 
 - Semantic HTML5
